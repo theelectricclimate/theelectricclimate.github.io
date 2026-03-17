@@ -47,3 +47,21 @@ footer {
     width: 1000px;
     object-fit: cover;
 }
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px
+}
+
+.navigation a:active {
+    background-color: #f7ffcc;
+    color:black;
+}
